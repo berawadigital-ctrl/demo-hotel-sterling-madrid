@@ -1,0 +1,701 @@
+{
+ "schema": "berawa-knowledge/1",
+ "project": "demo-hotel-sterling-madrid",
+ "source_site": "https://www.hotelsterlingmadrid.com/",
+ "source_read_at": "2026-10-29T07:55:00+01:00",
+ "note": "Respuestas solo con datos publicados en hotelsterlingmadrid.com. Sin coincidencia: el asistente dice que no dispone de la informacion y ofrece contacto.",
+ "entries": [
+  {
+   "id": "K01",
+   "topic": "habitaciones",
+   "keys": {
+    "es": [
+     "que habitaciones",
+     "tipos de habitacion",
+     "triple",
+     "cuadruple",
+     "individual",
+     "doble",
+     "terraza",
+     "familia"
+    ],
+    "ca": [
+     "quines habitacions",
+     "tipus d habitacio",
+     "triple",
+     "quadruple",
+     "individual",
+     "doble",
+     "terrassa",
+     "familia"
+    ],
+    "en": [
+     "what rooms",
+     "room types",
+     "triple",
+     "quadruple",
+     "single",
+     "double",
+     "terrace",
+     "family"
+    ],
+    "fr": [
+     "quelles chambres",
+     "types de chambre",
+     "triple",
+     "quadruple",
+     "individuelle",
+     "double",
+     "terrasse",
+     "famille"
+    ]
+   },
+   "a": {
+    "es": "Su web presenta habitaciones dobles (con vistas y terraza privada, 21m²; con vistas a la calle San Bernardo, 18m²; standard, 15m²), triples (18 m², hasta 3 personas, con vistas, terraza o standard), cuádruples (hasta 4 personas, 22 m² con vistas o 20 m² standard), individual (interior) y doble económica (interior).",
+    "ca": "La seva web presenta habitacions dobles (amb vistes i terrassa privada, 21m²; amb vistes al carrer San Bernardo, 18m²; standard, 15m²), triples (18 m², fins a 3 persones, amb vistes, terrassa o standard), quàdruples (fins a 4 persones, 22 m² amb vistes o 20 m² standard), individual (interior) i doble econòmica (interior).",
+    "en": "Its website lists double rooms (with views and private terrace, 21m²; overlooking Calle San Bernardo, 18m²; standard, 15m²), triples (18 m², up to 3 guests, with views, terrace or standard), quadruples (up to 4 guests, 22 m² with views or 20 m² standard), single (interior) and economy double (interior).",
+    "fr": "Son site présente des chambres doubles (avec vue et terrasse privée, 21m² ; avec vue sur la calle San Bernardo, 18m² ; standard, 15m²), triples (18 m², jusqu'à 3 personnes, avec vue, terrasse ou standard), quadruples (jusqu'à 4 personnes, 22 m² avec vue ou 20 m² standard), individuelle (intérieure) et double économique (intérieure)."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/habitaciones",
+     "quote": "Son amplias, con vistas y con una terraza privada. Tamaño de la habitación 21m²."
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/habitaciones",
+     "quote": "Son amplias y con vistas a la Calle San Bernardo. Tamaño de la habitación 18m²"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/habitaciones",
+     "quote": "Tamaño de la habitación 15m²"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/habitaciones",
+     "quote": "Habitaciones para un máximo de 3 personas con excelentes vistas y una terraza privada."
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/habitaciones",
+     "quote": "Tamaño de la habitación: 18 m²"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "Tamaño de la habitación: 22 m²"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "Habitaciones para un máximo de 4 personas."
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "Tamaño de la habitación: 20 m²"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "Estas habitaciones son interiores e ideales para estancias cortas."
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "Es una habitación interior, perfecta para estancias cortas."
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K02",
+   "topic": "equipamiento",
+   "keys": {
+    "es": [
+     "equipamiento",
+     "aire acondicionado",
+     "minibar",
+     "caja de seguridad",
+     "caja fuerte",
+     "secador",
+     "banera",
+     "wifi",
+     "wi fi",
+     "escritorio"
+    ],
+    "ca": [
+     "equipament",
+     "aire condicionat",
+     "minibar",
+     "caixa de seguretat",
+     "caixa forta",
+     "assecador",
+     "banyera",
+     "wifi",
+     "wi fi",
+     "escriptori"
+    ],
+    "en": [
+     "equipment",
+     "air conditioning",
+     "minibar",
+     "safe",
+     "hairdryer",
+     " bath",
+     "wifi",
+     "wi fi",
+     "desk"
+    ],
+    "fr": [
+     "equipement",
+     "climatisation",
+     "minibar",
+     "coffre",
+     "seche cheveux",
+     "baignoire",
+     "wifi",
+     "wi fi",
+     "bureau"
+    ]
+   },
+   "a": {
+    "es": "Las habitaciones tienen conexión wifi a internet, aire acondicionado, amenities, bañera, caja de seguridad, escritorio, minibar y secador de pelo.",
+    "ca": "Les habitacions tenen connexió wifi a internet, aire condicionat, amenities, banyera, caixa de seguretat, escriptori, minibar i assecador de cabells.",
+    "en": "The rooms have wifi internet, air conditioning, amenities, a bath, a safe, a desk, a minibar and a hairdryer.",
+    "fr": "Les chambres disposent du wifi, de la climatisation, de produits d'accueil, d'une baignoire, d'un coffre-fort, d'un bureau, d'un minibar et d'un sèche-cheveux."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/habitaciones",
+     "quote": "Conexión Wi-fi a internet Aire acondicionado Amenities Bañera Caja de seguridad Escritorio Minibar Secador de pelo"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K03",
+   "topic": "desayuno",
+   "keys": {
+    "es": [
+     "desayuno",
+     "bufet",
+     "buffet",
+     "comer"
+    ],
+    "ca": [
+     "esmorzar",
+     "bufet",
+     "menjar"
+    ],
+    "en": [
+     "breakfast",
+     "buffet",
+     " eat"
+    ],
+    "fr": [
+     "petit dejeuner",
+     "buffet",
+     "manger"
+    ]
+   },
+   "a": {
+    "es": "Cada mañana se sirve un desayuno completo, de tipo bufet.",
+    "ca": "Cada matí se serveix un esmorzar complet, de tipus bufet.",
+    "en": "A full buffet breakfast is served every morning.",
+    "fr": "Un petit-déjeuner complet, sous forme de buffet, est servi chaque matin."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/servicios",
+     "quote": "te serviremos cada mañana un delicioso y completo desayuno"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/servicios",
+     "quote": "Desayuno bufet"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K04",
+   "topic": "parking",
+   "keys": {
+    "es": [
+     "parking",
+     "aparcar",
+     "aparcamiento",
+     "garaje",
+     "madrid central",
+     "coche"
+    ],
+    "ca": [
+     "parking",
+     "parquing",
+     "aparcar",
+     "aparcament",
+     "garatge",
+     "madrid central",
+     "cotxe"
+    ],
+    "en": [
+     "parking",
+     "car park",
+     "garage",
+     "madrid central",
+     " car "
+    ],
+    "fr": [
+     "parking",
+     "stationnement",
+     "garer",
+     "garage",
+     "madrid central",
+     "voiture"
+    ]
+   },
+   "a": {
+    "es": "Hay un aparcamiento anexo al hotel: el hotel gestiona la reserva de la plaza y, si lo deseas, el alta del vehículo para entrar en Madrid Central. Tiene coste por día (consulta la tarifa).",
+    "ca": "Hi ha un aparcament annex a l'hotel: l'hotel gestiona la reserva de la plaça i, si vols, l'alta del vehicle per entrar a Madrid Central. Té cost per dia (consulta la tarifa).",
+    "en": "There is a car park next to the hotel: the hotel arranges your space and, if you wish, registers your vehicle to enter Madrid Central. It is charged per day (ask for the rate).",
+    "fr": "Il y a un parking attenant à l'hôtel : l'hôtel réserve votre place et, si vous le souhaitez, enregistre votre véhicule pour entrer dans Madrid Central. Il est payant à la journée (renseignez-vous sur le tarif)."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/servicios",
+     "quote": "Encontrarás un aparcamiento anexo al hotel para el que gestionaremos la reserva de tu plaza, así como el alta del vehículo para entrar en Madrid Central"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K05",
+   "topic": "accesibilidad y servicios",
+   "keys": {
+    "es": [
+     "accesible",
+     "silla de ruedas",
+     "movilidad reducida",
+     "adaptad",
+     "ninera",
+     "recepcion",
+     "consigna",
+     "equipaje"
+    ],
+    "ca": [
+     "accessible",
+     "cadira de rodes",
+     "mobilitat reduida",
+     "adaptad",
+     "mainadera",
+     "recepcio",
+     "consigna",
+     "equipatge"
+    ],
+    "en": [
+     "accessible",
+     "wheelchair",
+     "reduced mobility",
+     "adapted",
+     "babysit",
+     "reception",
+     "luggage"
+    ],
+    "fr": [
+     "accessible",
+     "fauteuil roulant",
+     "mobilite reduite",
+     "adapte",
+     "baby sitting",
+     "reception",
+     "bagages",
+     "consigne"
+    ]
+   },
+   "a": {
+    "es": "El hotel tiene instalaciones totalmente adaptadas para personas con movilidad reducida, accesos adaptados y habitaciones adaptadas. También ofrece recepción 24 horas, consigna de equipajes y servicio de niñera bajo petición.",
+    "ca": "L'hotel té instal·lacions totalment adaptades per a persones amb mobilitat reduïda, accessos adaptats i habitacions adaptades. També ofereix recepció 24 hores, consigna d'equipatges i servei de mainadera a petició.",
+    "en": "The hotel has facilities fully adapted for people with reduced mobility, adapted access and adapted rooms. It also offers a 24-hour reception, luggage storage and babysitting on request.",
+    "fr": "L'hôtel dispose d'installations entièrement adaptées aux personnes à mobilité réduite, d'accès adaptés et de chambres adaptées. Il propose aussi une réception 24 heures, une consigne à bagages et un baby-sitting sur demande."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/servicios",
+     "quote": "Nuestro hotel cuenta con instalaciones totalmente adaptadas para personas con movilidad reducida"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/servicios",
+     "quote": "Accesos adaptados"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/habitaciones",
+     "quote": "Disponemos de habitaciones adaptadas."
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/servicios",
+     "quote": "Consigna de equipajes Desayuno bufet Recepción 24 horas"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/servicios",
+     "quote": "podrás contratar servicio de niñera bajo petición"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K06",
+   "topic": "mascotas",
+   "keys": {
+    "es": [
+     "mascota",
+     "perro",
+     "gato",
+     "animal",
+     "pet friendly"
+    ],
+    "ca": [
+     "mascot",
+     "gos",
+     "gat",
+     "animal",
+     "pet friendly"
+    ],
+    "en": [
+     "pet",
+     "dog",
+     " cat ",
+     "animal"
+    ],
+    "fr": [
+     "animaux",
+     "animal",
+     "chien",
+     "chat"
+    ]
+   },
+   "a": {
+    "es": "Admite mascotas de talla pequeña (hasta 10 kilos y una por habitación), sin cargo adicional si reservas en su web oficial; en otro caso se aplica un coste adicional por noche. Se admiten perros y gatos tranquilos.",
+    "ca": "Admet mascotes de talla petita (fins a 10 quilos i una per habitació), sense cost addicional si reserves al seu web oficial; en cas contrari s'aplica un cost addicional per nit. S'admeten gossos i gats tranquils.",
+    "en": "Small pets are accepted (up to 10 kilos and one per room), at no extra charge if you book on its official website; otherwise an extra charge per night applies. Calm dogs and cats are welcome.",
+    "fr": "Les animaux de petite taille sont acceptés (jusqu'à 10 kilos et un par chambre), sans supplément si vous réservez sur son site officiel ; sinon un supplément par nuit s'applique. Chiens et chats calmes acceptés."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/mascotas-gratis",
+     "quote": "Admitimos mascotas de talla pequeña (hasta 10 kilos de peso y limitado a 1 por habitación), sin cargo adicional, siempre y cuando reserves a través de nuestra web oficial."
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/servicios",
+     "quote": "Se admiten perros y gatos tranquilos"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K07",
+   "topic": "ubicación",
+   "keys": {
+    "es": [
+     "donde",
+     "direccion",
+     "ubicacion",
+     "metro",
+     "como llegar",
+     "san bernardo"
+    ],
+    "ca": [
+     " on ",
+     "adreca",
+     "ubicacio",
+     "metro",
+     "com arribar",
+     "san bernardo"
+    ],
+    "en": [
+     "where",
+     "address",
+     "location",
+     "metro",
+     "how to get",
+     "san bernardo"
+    ],
+    "fr": [
+     "ou est",
+     "adresse",
+     "situe",
+     "metro",
+     "comment venir",
+     "san bernardo"
+    ]
+   },
+   "a": {
+    "es": "Está en San Bernardo, 29 y 31, 28015 Madrid, en una de las calles que conectan con la Gran Vía y a dos pasos de varias estaciones de metro.",
+    "ca": "És a San Bernardo, 29 i 31, 28015 Madrid, en un dels carrers que connecten amb la Gran Vía i a dos passos de diverses estacions de metro.",
+    "en": "It is at San Bernardo, 29 and 31, 28015 Madrid, on one of the streets connecting to the Gran Vía and steps from several metro stations.",
+    "fr": "Il se trouve San Bernardo, 29 et 31, 28015 Madrid, dans l'une des rues reliées à la Gran Vía et à deux pas de plusieurs stations de métro."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "San Bernardo, 29 y 31 28015 Madrid Madrid España"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "está situado en una de sus conexiones, la calle San Bernardo"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "a dos pasos de varias estaciones de metro"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K08",
+   "topic": "entorno",
+   "keys": {
+    "es": [
+     "que ver",
+     "visitar",
+     "teatro",
+     "musical",
+     "compras",
+     "museo",
+     "gran via"
+    ],
+    "ca": [
+     "que es pot veure",
+     "que veure",
+     "visitar",
+     "teatre",
+     "musical",
+     "compres",
+     "museu",
+     "gran via"
+    ],
+    "en": [
+     "to see",
+     "visit",
+     "theatre",
+     "musical",
+     "shopping",
+     "museum",
+     "gran via"
+    ],
+    "fr": [
+     "voir",
+     "visiter",
+     "theatre",
+     "comedie musicale",
+     "shopping",
+     "musee",
+     "gran via"
+    ]
+   },
+   "a": {
+    "es": "La Gran Vía es conocida como el Broadway de Madrid, con muchos teatros y cines. A unos pasos está la calle Fuencarral, para compras, y su web recomienda el Museo Reina Sofía, el Thyssen-Bornemisza y el Prado.",
+    "ca": "La Gran Vía és coneguda com el Broadway de Madrid, amb molts teatres i cinemes. A pocs passos hi ha el carrer Fuencarral, per a compres, i la seva web recomana el Museu Reina Sofía, el Thyssen-Bornemisza i el Prado.",
+    "en": "The Gran Vía is known as Madrid's Broadway, with many theatres and cinemas. A few steps away is Calle Fuencarral for shopping, and its website recommends the Reina Sofía, Thyssen-Bornemisza and Prado museums.",
+    "fr": "La Gran Vía est surnommée le Broadway de Madrid, avec de nombreux théâtres et cinémas. À quelques pas se trouve la calle Fuencarral pour le shopping, et son site recommande les musées Reina Sofía, Thyssen-Bornemisza et du Prado."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "Muchos de los teatros y de los cines del centro se encuentran en la propia avenida"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/destino",
+     "quote": "A sólo unos pasos del hotel se encuentra la Calle Fuencarral"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/destino",
+     "quote": "El Museo Reina Sofía alberga arte contemporáneo"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K09",
+   "topic": "ventajas web",
+   "keys": {
+    "es": [
+     "ventajas",
+     "descuento",
+     "early",
+     "salida sin prisas",
+     "entrada temprana"
+    ],
+    "ca": [
+     "avantatges",
+     "descompte",
+     "early",
+     "sortida",
+     "entrada aviat"
+    ],
+    "en": [
+     "advantages",
+     "discount",
+     "early",
+     "late check"
+    ],
+    "fr": [
+     "avantages",
+     "reduction",
+     "remise",
+     "early",
+     "depart tardif"
+    ]
+   },
+   "a": {
+    "es": "Reservando en su web oficial ofrece la mejor habitación disponible, salida sin prisas hasta las 14:00 y entrada temprana a partir de las 10:00 (ambas sujetas a disponibilidad) y un descuento exclusivo web del 10%.",
+    "ca": "Reservant al seu web oficial ofereix la millor habitació disponible, sortida sense presses fins a les 14:00 i entrada d'hora a partir de les 10:00 (totes dues segons disponibilitat) i un descompte exclusiu web del 10%.",
+    "en": "Booking on its official website gets you the best available room, a relaxed check-out until 14:00 and early check-in from 10:00 (both subject to availability) and an exclusive 10% web discount.",
+    "fr": "En réservant sur son site officiel : meilleure chambre disponible, départ jusqu'à 14:00 et arrivée anticipée dès 10:00 (selon disponibilité) et une réduction web exclusive de 10%."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "Mejor habitación disponible Salida sin prisas hasta las 14:00 Sujeto a disponibilidad Entrada temprana a partir de las 10:00 Sujeto a disponibilidad"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/",
+     "quote": "Descuento exclusivo web 10%"
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K10",
+   "topic": "reservar",
+   "keys": {
+    "es": [
+     "reserv",
+     "disponib",
+     "libre",
+     "confirm"
+    ],
+    "ca": [
+     "reserv",
+     "disponib",
+     "lliure",
+     "confirma"
+    ],
+    "en": [
+     "book",
+     "reserv",
+     "availab",
+     "free room",
+     "confirm"
+    ],
+    "fr": [
+     "reserv",
+     "disponib",
+     "libre",
+     "confirm"
+    ]
+   },
+   "a": {
+    "es": "Puedes reservar en la página Reservar de su web (botón Reservar) o escribir a reservas@hotelsterlingmadrid.com. Este asistente no confirma disponibilidad ni reservas.",
+    "ca": "Pots reservar a la pàgina Reservar del seu web (botó Reservar) o escriure a reservas@hotelsterlingmadrid.com. Aquest assistent no confirma disponibilitat ni reserves.",
+    "en": "You can book on the Reservar page of its website (Book button) or email reservas@hotelsterlingmadrid.com. This assistant does not confirm availability or bookings.",
+    "fr": "Vous pouvez réserver sur la page Reservar de son site (bouton Réserver) ou écrire à reservas@hotelsterlingmadrid.com. Cet assistant ne confirme ni disponibilité ni réservation."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/reservar",
+     "quote": "Reserva tu habitación Hotel Sterling"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/aviso-legal",
+     "quote": "teléfono y e-mail reservas@hotelsterlingmadrid.com"
+    }
+   ],
+   "cta": true
+  },
+  {
+   "id": "K11",
+   "topic": "contacto",
+   "keys": {
+    "es": [
+     "telefono",
+     "llamar",
+     "correo",
+     "email",
+     "contacto"
+    ],
+    "ca": [
+     "telefon",
+     "trucar",
+     "correu",
+     "email",
+     "contacte"
+    ],
+    "en": [
+     "phone",
+     "call",
+     "email",
+     "contact"
+    ],
+    "fr": [
+     "telephone",
+     "appeler",
+     "e mail",
+     "email",
+     "courriel",
+     "contact"
+    ]
+   },
+   "a": {
+    "es": "Su aviso legal da el correo reservas@hotelsterlingmadrid.com; la web tiene también un formulario de contacto.",
+    "ca": "El seu avís legal dona el correu reservas@hotelsterlingmadrid.com; el web té també un formulari de contacte.",
+    "en": "Its legal notice gives the email reservas@hotelsterlingmadrid.com; the website also has a contact form.",
+    "fr": "Sa mention légale indique l'e-mail reservas@hotelsterlingmadrid.com ; le site a aussi un formulaire de contact."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/aviso-legal",
+     "quote": "teléfono y e-mail reservas@hotelsterlingmadrid.com"
+    },
+    {
+     "url": "https://www.hotelsterlingmadrid.com/contacto",
+     "quote": "Contacto Nombre... Apellidos... Email..."
+    }
+   ],
+   "cta": false
+  },
+  {
+   "id": "K12",
+   "topic": "titular",
+   "keys": {
+    "es": [
+     "titular",
+     "propietario",
+     "razon social",
+     "cif"
+    ],
+    "ca": [
+     "titular",
+     "propietari",
+     "rao social",
+     "cif"
+    ],
+    "en": [
+     "owner",
+     "legal name",
+     "cif"
+    ],
+    "fr": [
+     "titulaire",
+     "proprietaire",
+     "raison sociale",
+     "cif"
+    ]
+   },
+   "a": {
+    "es": "Su aviso legal indica que el propietario de la web es HOTELES GESTIÓN MADRID - HOTEL STERLING, con domicilio en San Bernardo, 29 y 31 y CIF B-85557585.",
+    "ca": "El seu avís legal indica que el propietari del web és HOTELES GESTIÓN MADRID - HOTEL STERLING, amb domicili a San Bernardo, 29 i 31 i CIF B-85557585.",
+    "en": "Its legal notice says the website owner is HOTELES GESTIÓN MADRID - HOTEL STERLING, at San Bernardo, 29 and 31, CIF B-85557585.",
+    "fr": "Sa mention légale indique que le propriétaire du site est HOTELES GESTIÓN MADRID - HOTEL STERLING, San Bernardo, 29 et 31, CIF B-85557585."
+   },
+   "sources": [
+    {
+     "url": "https://www.hotelsterlingmadrid.com/aviso-legal",
+     "quote": "El propietario de esta web es: HOTELES GESTIÓN MADRID - HOTEL STERLING, con domicilio en San Bernardo, 29 y 31, con CIF B-85557585"
+    }
+   ],
+   "cta": false
+  }
+ ]
+}
