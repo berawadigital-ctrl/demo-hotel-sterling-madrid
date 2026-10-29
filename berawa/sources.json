@@ -1,0 +1,64 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.hotelsterlingmadrid.com/",
+ "read_at": "2026-10-29T07:55:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.hotelsterlingmadrid.com/",
+   "sha256": "5f33f649338af5aec74cb2fb22a73b2cb2971d9cb8ec9dae48bb71917ce7e706",
+   "chars": 11155
+  },
+  {
+   "url": "https://www.hotelsterlingmadrid.com/aviso-legal",
+   "sha256": "01841a1bb09573797bb08943f1dd4baa7e0122fd7c451fbf951f93f8f4badb40",
+   "chars": 7463
+  },
+  {
+   "url": "https://www.hotelsterlingmadrid.com/contacto",
+   "sha256": "ab6fd74f8adc2c1ab4df69ef8a793d88fcd926778f5325a34ad51df2e947f857",
+   "chars": 6516
+  },
+  {
+   "url": "https://www.hotelsterlingmadrid.com/destino",
+   "sha256": "403aa31b1fd06599eadaaa9a25c56294316df9d9e1fd5436c652ce598381666c",
+   "chars": 9904
+  },
+  {
+   "url": "https://www.hotelsterlingmadrid.com/habitaciones",
+   "sha256": "ab5ccc5be151a87024f3f558e0adcc11ce94de473cbebecee71dfa8533a24e91",
+   "chars": 11563
+  },
+  {
+   "url": "https://www.hotelsterlingmadrid.com/mascotas-gratis",
+   "sha256": "b4ef8c55eba0bdd0c70aa3c93e25039efd536f249175edc9f8748053fa278ed2",
+   "chars": 6497
+  },
+  {
+   "url": "https://www.hotelsterlingmadrid.com/reservar",
+   "sha256": "642ebc5609785081eaa41a318f7b39bf121b1cdf9302eec55fb62e1af0d8d170",
+   "chars": 6361
+  },
+  {
+   "url": "https://www.hotelsterlingmadrid.com/servicios",
+   "sha256": "f3bbe94e36416b8402453a17011329b0ffa7ef2e2588dfce4c451465853fdf78",
+   "chars": 7569
+  }
+ ],
+ "other_pages_read": [
+  "https://www.hotelsterlingmadrid.com",
+  "https://www.hotelsterlingmadrid.com/anade-extras-a-tu-estancia",
+  "https://www.hotelsterlingmadrid.com/blog",
+  "https://www.hotelsterlingmadrid.com/cookies",
+  "https://www.hotelsterlingmadrid.com/descuento-exclusivo-web",
+  "https://www.hotelsterlingmadrid.com/en/",
+  "https://www.hotelsterlingmadrid.com/en/cookies",
+  "https://www.hotelsterlingmadrid.com/estancias-en-el-centro-de-madrid",
+  "https://www.hotelsterlingmadrid.com/fr/",
+  "https://www.hotelsterlingmadrid.com/galeria",
+  "https://www.hotelsterlingmadrid.com/it/",
+  "https://www.hotelsterlingmadrid.com/opiniones",
+  "https://www.hotelsterlingmadrid.com/promociones",
+  "https://www.hotelsterlingmadrid.com/proteccion_datos"
+ ]
+}
