@@ -2,21 +2,21 @@
 
 Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-QA-CHECKLIST.md`) pasados por Grok antes del PR. **No es una auditoría independiente ni una aprobación**: Codex solo audita una muestra y nada se publica ni se envía sin visto bueno de Juan.
 
-- Rama: `demo/hotel-sterling-madrid` · HEAD de las pruebas: `b8bad11dc83ec803e4905cbd010379806418209b` · fecha: 29/10/2026 08:08 (Europe/Madrid)
+- Rama: `demo/hotel-sterling-madrid` · HEAD de las pruebas: `feac973a13db41bcb4431db9bdd9ea4b4ebea46c` · fecha: 29/10/2026 09:57 (Europe/Madrid)
 - Entorno: Chromium de Playwright (instalado por `playwright install chromium` en el clon limpio), axe-core 4.14.0, Lighthouse 13.6.0 (3 pasadas, mediana).
-- Resultado: **QA_GROK_FAIL**
+- Resultado: **QA_GROK_PASS**
 - Negocio medido: Maps 4.2 (LEIDA, coincide tel, web) · web original: LCP > 4 s · titular HOTELES GESTIÓN MADRID - HOTEL STERLING (persona jurídica, sin cadena).
 
 ## Controles A1–A11
 | Nº | Control | Resultado | Evidencia |
 |---|---|---|---|
 | A1 | Idiomas ES/CA/EN/FR (nunca DE) | **CUMPLE** | qa/chat-i18n.json, qa/file-chat-i18n.json (data-t = traducción; sin alemán) |
-| A2 | Chatbot con knowledge.json (citas, cifras, 4+ preguntas por idioma, desconocida, forzar invención, reserva, claves ambiguas = 0) | **NO** | qa/check_kb.txt, qa/chat-i18n.json, keys_test en qa/run_checks-zip.txt y qa/clon-limpio.txt |
+| A2 | Chatbot con knowledge.json (citas, cifras, 4+ preguntas por idioma, desconocida, forzar invención, reserva, claves ambiguas = 0) | **CUMPLE** | qa/check_kb.txt, qa/chat-i18n.json, keys_test en qa/run_checks-zip.txt y qa/clon-limpio.txt |
 | A3 | Accesibilidad: axe sin violaciones (2 viewports × 4 idiomas × inicio/menú/chat), Lighthouse accesibilidad ≥ 95, teclado, contraste sobre foto ≥ 4,5 | **CUMPLE** | qa/axe-teclado.json, qa/contraste.json, qa/lighthouse-3pasadas.json |
 | A4 | Seguridad: sin innerHTML con datos, noopener noreferrer, sin terceros, CSP por meta probada | **CUMPLE** | qa/seguridad.json |
 | A5 | Datos con fuente y fecha; leídas todas las fichas | **CUMPLE** | berawa/sources.json, berawa/evidence/source-text.json, berawa/evidence/captacion.json |
 | A6 | Imágenes: ninguna del negocio; manifiesto con hash, origen y licencia | **CUMPLE** | berawa/asset_manifest.json (todo origin=generated + fuente OFL), LICENSES.md |
-| A7 | Entrega: ZIP determinista, descomprimido y probado por HTTP y file://, idéntico a la rama | **NO** | qa/run_checks-zip.txt, qa/zip/, resumen.json (sha256 del ZIP, 0 ficheros distintos) |
+| A7 | Entrega: ZIP determinista, descomprimido y probado por HTTP y file://, idéntico a la rama | **CUMPLE** | qa/run_checks-zip.txt, qa/zip/, resumen.json (sha256 del ZIP, 0 ficheros distintos) |
 | A8 | Trazabilidad: un commit por bloque; scripts y evidencias commiteados; cambios V1.0 aparte | **CUMPLE** | git log de la rama; berawa/V1.0-CAMBIOS.md |
 | A9 | Precios del chatbot: REGLA DE PRECIOS: CUMPLE | **CUMPLE** | qa/check_kb.txt, qa/check_kb-zip.txt |
 | A10 | Reproducibilidad: clon limpio + dependencias documentadas + run_checks --file en verde; rg /workspace vacío | **CUMPLE** | qa/clon-limpio.txt, qa/rg-workspace.txt |
@@ -25,7 +25,7 @@ Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-
 ## Checklist C01–C16
 | Código | Control | Resultado | Evidencia |
 |---|---|---|---|
-| C01 | Repositorio y SHA | **CUMPLE** | HEAD del clon limpio = b8bad11dc83ec803e4905cbd010379806418209b (el SHA final del PR es el del commit que añade este informe) |
+| C01 | Repositorio y SHA | **CUMPLE** | HEAD del clon limpio = feac973a13db41bcb4431db9bdd9ea4b4ebea46c (el SHA final del PR es el del commit que añade este informe) |
 | C02 | Identidad y fuentes | **CUMPLE** | nombre, teléfono, dirección y datos comerciales con cita literal en berawa/knowledge.json; titular persona jurídica sin cadena y nota de Maps en berawa/evidence/captacion.json |
 | C03 | Licencias | **CUMPLE** | asset_manifest.json: ilustraciones propias generadas (origin=generated) y fuente Cormorant OFL; ninguna imagen, logo ni vídeo del negocio |
 | C04 | Diseño personalizado y no suplantador | **CUMPLE** | paleta e ilustraciones propias, aviso «Propuesta de rediseño independiente, no oficial» arriba y en el pie, sin logo ni marca del negocio; revisión visual de qa/capturas/ |
@@ -39,7 +39,7 @@ Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-
 | C12 | CTA con destinos reales, sin falsa reserva | **CUMPLE** | solo mailto:, tel: y enlaces a páginas de reserva del propio negocio (project.json → book); sin motor propio; sec_scan |
 | C13 | Transparencia: aviso demo no oficial y noindex | **CUMPLE** | aviso visible en los 4 idiomas, meta robots noindex,nofollow y robots.txt Disallow: / |
 | C14 | Seguridad: sin secretos, XSS ni recolección engañosa | **CUMPLE** | qa/seguridad.json; el sitio no recoge datos |
-| C15 | Entrega: ZIP, descomprimir, servir y navegar fuera de GitHub Pages | **NO** | qa/run_checks-zip.txt (HTTP y file:// sobre el ZIP descomprimido) |
+| C15 | Entrega: ZIP, descomprimir, servir y navegar fuera de GitHub Pages | **CUMPLE** | qa/run_checks-zip.txt (HTTP y file:// sobre el ZIP descomprimido) |
 | C16 | Rendimiento medido (Lighthouse 3 pasadas, mediana) | **CUMPLE** | qa/lighthouse-3pasadas.json · SEO < 90 por el `noindex,nofollow` y el `robots.txt` con `Disallow: /` (is-crawlable y robots-txt), exigidos por la V1.0; no se maquilla. |
 
 ## Lighthouse (mediana de 3 pasadas)
@@ -53,4 +53,4 @@ SEO < 90 por el `noindex,nofollow` y el `robots.txt` con `Disallow: /` (is-crawl
 ## Límites
 - No probado en Safari ni Firefox ni con lector de pantalla.
 - Las imágenes son ilustraciones propias: no muestran el establecimiento y así se rotulan.
-- Tiempo del autocontrol automático (ZIP, clon limpio, Lighthouse, capturas): 6.4 min.
+- Tiempo del autocontrol automático (ZIP, clon limpio, Lighthouse, capturas): 7.3 min.
