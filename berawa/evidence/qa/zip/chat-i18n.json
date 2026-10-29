@@ -1,0 +1,448 @@
+{
+ "url": "http://127.0.0.1:33377/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tiene?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Su web presenta habitaciones dobles (con vistas y terraza privada, 21m²; con vistas a la calle San Bernardo, 18m²; standard, 15m²), triples "
+    },
+    {
+     "q": "¿Qué equipamiento tienen las habitaciones?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen conexión wifi a internet, aire acondicionado, amenities, bañera, caja de seguridad, escritorio, minibar y secador de"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Cada mañana se sirve un desayuno completo, de tipo bufet."
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Hay un aparcamiento anexo al hotel: el hotel gestiona la reserva de la plaza y, si lo deseas, el alta del vehículo para entrar en Madrid Cen"
+    },
+    {
+     "q": "¿Es accesible para silla de ruedas?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "El hotel tiene instalaciones totalmente adaptadas para personas con movilidad reducida, accesos adaptados y habitaciones adaptadas. También "
+    },
+    {
+     "q": "¿Admiten mascotas?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Admite mascotas de talla pequeña (hasta 10 kilos y una por habitación), sin cargo adicional si reservas en su web oficial; en otro caso se a"
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Está en San Bernardo, 29 y 31, 28015 Madrid, en una de las calles que conectan con la Gran Vía y a dos pasos de varias estaciones de metro."
+    },
+    {
+     "q": "¿Qué ver cerca?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "La Gran Vía es conocida como el Broadway de Madrid, con muchos teatros y cines. A unos pasos está la calle Fuencarral, para compras, y su we"
+    },
+    {
+     "q": "¿Qué ventajas tiene reservar en la web?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Reservando en su web oficial ofrece la mejor habitación disponible, salida sin prisas hasta las 14:00 y entrada temprana a partir de las 10:"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en la página Reservar de su web (botón Reservar) o escribir a reservas@hotelsterlingmadrid.com. Este asistente no confirma d"
+    },
+    {
+     "q": "¿Cuál es el correo?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Su aviso legal da el correo reservas@hotelsterlingmadrid.com; la web tiene también un formulario de contacto."
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Su aviso legal indica que el propietario de la web es HOTELES GESTIÓN MADRID - HOTEL STERLING, con domicilio en San Bernardo, 29 y 31 y CIF "
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en la página Reservar de su web (botón Reservar) o escribir a reservas@hotelsterlingmadrid.com. Este asistente no confirma d"
+    },
+    {
+     "q": "¿Tienen gimnasio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tiene?",
+    "¿Hay parking?",
+    "¿Admiten mascotas?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "hero_k",
+    "intro_k",
+    "send",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quines habitacions té?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "La seva web presenta habitacions dobles (amb vistes i terrassa privada, 21m²; amb vistes al carrer San Bernardo, 18m²; standard, 15m²), trip"
+    },
+    {
+     "q": "Quin equipament tenen les habitacions?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les habitacions tenen connexió wifi a internet, aire condicionat, amenities, banyera, caixa de seguretat, escriptori, minibar i assecador de"
+    },
+    {
+     "q": "Hi ha esmorzar?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Cada matí se serveix un esmorzar complet, de tipus bufet."
+    },
+    {
+     "q": "Hi ha pàrquing?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Hi ha un aparcament annex a l'hotel: l'hotel gestiona la reserva de la plaça i, si vols, l'alta del vehicle per entrar a Madrid Central. Té "
+    },
+    {
+     "q": "És accessible amb cadira de rodes?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "L'hotel té instal·lacions totalment adaptades per a persones amb mobilitat reduïda, accessos adaptats i habitacions adaptades. També ofereix"
+    },
+    {
+     "q": "Admeteu mascotes?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Admet mascotes de talla petita (fins a 10 quilos i una per habitació), sense cost addicional si reserves al seu web oficial; en cas contrari"
+    },
+    {
+     "q": "On és l'hotel?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "És a San Bernardo, 29 i 31, 28015 Madrid, en un dels carrers que connecten amb la Gran Vía i a dos passos de diverses estacions de metro."
+    },
+    {
+     "q": "Què es pot veure a prop?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "La Gran Vía és coneguda com el Broadway de Madrid, amb molts teatres i cinemes. A pocs passos hi ha el carrer Fuencarral, per a compres, i l"
+    },
+    {
+     "q": "Quins avantatges té reservar al web?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Reservant al seu web oficial ofereix la millor habitació disponible, sortida sense presses fins a les 14:00 i entrada d'hora a partir de les"
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar a la pàgina Reservar del seu web (botó Reservar) o escriure a reservas@hotelsterlingmadrid.com. Aquest assistent no confirma d"
+    },
+    {
+     "q": "Quin és el correu?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "El seu avís legal dona el correu reservas@hotelsterlingmadrid.com; el web té també un formulari de contacte."
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "El seu avís legal indica que el propietari del web és HOTELES GESTIÓN MADRID - HOTEL STERLING, amb domicili a San Bernardo, 29 i 31 i CIF B-"
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar a la pàgina Reservar del seu web (botó Reservar) o escriure a reservas@hotelsterlingmadrid.com. Aquest assistent no confirma d"
+    },
+    {
+     "q": "Teniu gimnàs?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    },
+    {
+     "q": "Hi ha piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    }
+   ],
+   "chips": [
+    "Quines habitacions té?",
+    "Hi ha pàrquing?",
+    "Admeteu mascotes?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "What rooms does it have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Its website lists double rooms (with views and private terrace, 21m²; overlooking Calle San Bernardo, 18m²; standard, 15m²), triples (18 m²,"
+    },
+    {
+     "q": "What equipment do the rooms have?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "The rooms have wifi internet, air conditioning, amenities, a bath, a safe, a desk, a minibar and a hairdryer."
+    },
+    {
+     "q": "Is there breakfast?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "A full buffet breakfast is served every morning."
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "There is a car park next to the hotel: the hotel arranges your space and, if you wish, registers your vehicle to enter Madrid Central. It is"
+    },
+    {
+     "q": "Is it wheelchair accessible?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "The hotel has facilities fully adapted for people with reduced mobility, adapted access and adapted rooms. It also offers a 24-hour receptio"
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Small pets are accepted (up to 10 kilos and one per room), at no extra charge if you book on its official website; otherwise an extra charge"
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "It is at San Bernardo, 29 and 31, 28015 Madrid, on one of the streets connecting to the Gran Vía and steps from several metro stations."
+    },
+    {
+     "q": "What is there to see nearby?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "The Gran Vía is known as Madrid's Broadway, with many theatres and cinemas. A few steps away is Calle Fuencarral for shopping, and its websi"
+    },
+    {
+     "q": "What are the advantages of booking on the website?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Booking on its official website gets you the best available room, a relaxed check-out until 14:00 and early check-in from 10:00 (both subjec"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on the Reservar page of its website (Book button) or email reservas@hotelsterlingmadrid.com. This assistant does not confirm av"
+    },
+    {
+     "q": "What is the email?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Its legal notice gives the email reservas@hotelsterlingmadrid.com; the website also has a contact form."
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Its legal notice says the website owner is HOTELES GESTIÓN MADRID - HOTEL STERLING, at San Bernardo, 29 and 31, CIF B-85557585."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on the Reservar page of its website (Book button) or email reservas@hotelsterlingmadrid.com. This assistant does not confirm av"
+    },
+    {
+     "q": "Do you have a gym?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    },
+    {
+     "q": "Is there a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    }
+   ],
+   "chips": [
+    "What rooms does it have?",
+    "Is there parking?",
+    "Are pets allowed?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres a-t-il ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Son site présente des chambres doubles (avec vue et terrasse privée, 21m² ; avec vue sur la calle San Bernardo, 18m² ; standard, 15m²), trip"
+    },
+    {
+     "q": "Quel équipement ont les chambres ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les chambres disposent du wifi, de la climatisation, de produits d'accueil, d'une baignoire, d'un coffre-fort, d'un bureau, d'un minibar et "
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Un petit-déjeuner complet, sous forme de buffet, est servi chaque matin."
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Il y a un parking attenant à l'hôtel : l'hôtel réserve votre place et, si vous le souhaitez, enregistre votre véhicule pour entrer dans Madr"
+    },
+    {
+     "q": "Est-il accessible en fauteuil roulant ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "L'hôtel dispose d'installations entièrement adaptées aux personnes à mobilité réduite, d'accès adaptés et de chambres adaptées. Il propose a"
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Les animaux de petite taille sont acceptés (jusqu'à 10 kilos et un par chambre), sans supplément si vous réservez sur son site officiel ; si"
+    },
+    {
+     "q": "Où est l'hôtel ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Il se trouve San Bernardo, 29 et 31, 28015 Madrid, dans l'une des rues reliées à la Gran Vía et à deux pas de plusieurs stations de métro."
+    },
+    {
+     "q": "Que voir à proximité ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "La Gran Vía est surnommée le Broadway de Madrid, avec de nombreux théâtres et cinémas. À quelques pas se trouve la calle Fuencarral pour le "
+    },
+    {
+     "q": "Quels avantages à réserver sur le site ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "En réservant sur son site officiel : meilleure chambre disponible, départ jusqu'à 14:00 et arrivée anticipée dès 10:00 (selon disponibilité)"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur la page Reservar de son site (bouton Réserver) ou écrire à reservas@hotelsterlingmadrid.com. Cet assistant ne confi"
+    },
+    {
+     "q": "Quel est l'e-mail ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Sa mention légale indique l'e-mail reservas@hotelsterlingmadrid.com ; le site a aussi un formulaire de contact."
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Sa mention légale indique que le propriétaire du site est HOTELES GESTIÓN MADRID - HOTEL STERLING, San Bernardo, 29 et 31, CIF B-85557585."
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur la page Reservar de son site (bouton Réserver) ou écrire à reservas@hotelsterlingmadrid.com. Cet assistant ne confi"
+    },
+    {
+     "q": "Avez-vous une salle de sport ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 91 5420400 · reservas@hotelsterlingmadrid.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres a-t-il ?",
+    "Y a-t-il un parking ?",
+    "Les animaux sont-ils admis ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
