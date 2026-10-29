@@ -1,0 +1,68 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-sterling-madrid",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T08:05:00+01:00",
+ "updated_at": "2026-10-29T08:05:00+01:00",
+ "business": {
+  "name": "Hotel Sterling",
+  "legal_name": "Hoteles Gestión Madrid S.L. (HOTELES GESTIÓN MADRID - HOTEL STERLING)",
+  "registry_ids": [
+   "CIF B-85557585"
+  ],
+  "url": "https://www.hotelsterlingmadrid.com/",
+  "domain": "hotelsterlingmadrid.com",
+  "municipality": "Madrid",
+  "province": "Madrid",
+  "address": "San Bernardo, 29 y 31 · 28015 Madrid",
+  "phones": [
+   "+34 91 5420400"
+  ],
+  "emails": [
+   "reservas@hotelsterlingmadrid.com"
+  ],
+  "sector": "hotel junto a la Gran Vía"
+ },
+ "rating": {
+  "value": 4.2,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Sterling+Madrid+%7C+Hotel+3+estrellas+en+Madrid/@40.4230619,-3.7076458,17z/data=!3m1!5s0xd42286354886d4d:0x26b68735de0854d5!4m9!3m8!1s0xd42286353a0f2d5:0x195ac8405c87afc0!5m2!4m1!1i2!8m2!3d40.4230619!4d-3.7076458!16s%2Fg%2F1tdvr102",
+  "date": "2026-10-29T06:51:44+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": {
+   "es": "https://www.hotelsterlingmadrid.com/reservar",
+   "ca": "https://www.hotelsterlingmadrid.com/reservar",
+   "en": "https://www.hotelsterlingmadrid.com/reservar",
+   "fr": "https://www.hotelsterlingmadrid.com/reservar"
+  },
+  "note": "Las reservas van a la pagina Reservar del propio hotel (hotelsterlingmadrid.com/reservar, motor de su web); la demo no construye ningun motor. El telefono +34 91 5420400 figura en el HTML de su portada (no en el texto visible) y coincide con su ficha de Google Maps; el chat solo da el correo del aviso legal."
+ },
+ "audit_original": {
+  "url": "https://www.hotelsterlingmadrid.com/",
+  "date": "2026-10-29T07:44:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
