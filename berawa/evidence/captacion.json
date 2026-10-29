@@ -1,0 +1,30 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "hotel-sterling-madrid",
+ "maps": {
+  "fecha": "2026-10-29T06:51:44+01:00",
+  "estado": "LEIDA",
+  "ficha": "Hotel Sterling Madrid | Hotel 3 estrellas en Madrid",
+  "nota": 4.2,
+  "coincide": {
+   "tel": true,
+   "web": true
+  },
+  "url": "https://www.google.com/maps/place/Hotel+Sterling+Madrid+%7C+Hotel+3+estrellas+en+Madrid/@40.4230619,-3.7076458,17z/data=!3m1!5s0xd42286354886d4d:0x26b68735de0854d5!4m9!3m8!1s0xd42286353a0f2d5:0x195ac8405c87afc0!5m2!4m1!1i2!8m2!3d40.4230619!4d-3.7076458!16s%2Fg%2F1tdvr102",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-29T06:51:44+01:00",
+  "veredicto": "DUDOSA",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "HOTELES GESTIÓN MADRID - HOTEL STERLING",
+  "cif": "B85557585",
+  "fuente": "https://www.hotelsterlingmadrid.com/aviso-legal (aviso legal: «El propietario de esta web es: HOTELES GESTIÓN MADRID - HOTEL STERLING, con domicilio en San Bernardo, 29 y 31, con CIF B-85557585»)",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "Un solo establecimiento (Hotel Sterling, San Bernardo 29 y 31); la web no presenta otros hoteles; sin marca de grupo."
+ }
+}
